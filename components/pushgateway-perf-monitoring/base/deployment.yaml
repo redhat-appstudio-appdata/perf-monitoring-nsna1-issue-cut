@@ -32,7 +32,7 @@ spec:
         component: perf-pushgateway
     spec:
       containers:
-      - image: prom/pushgateway:latest
+      - image: quay.io/redhat-user-workloads/msawood-tenant/perf-monitoring/pushgateway-perf-monitoring@sha256:8044fc5a16728f92d4e460633fbd8700b810dad1f16ed27ab7d5c58b6fae488b
         imagePullPolicy: Always
         name: perf-pushgateway
         ports:
