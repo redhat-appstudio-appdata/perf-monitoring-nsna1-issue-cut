@@ -13,7 +13,7 @@ metadata:
     component: perf-pushgateway
   name: pushgateway-perf-monitoring
 spec:
-  replicas: 1
+  replicas: 0
   revisionHistoryLimit: 0
   selector:
     matchLabels:
